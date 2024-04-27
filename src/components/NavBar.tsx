@@ -1,17 +1,41 @@
 import React from 'react';
 import logo from '../assets/icons/logo.png';
+import { colors } from '../assets/colors';
 
 function NavBar() {
+  const navItemColorChange = `hover:text-[${colors.primary}] hover:cursor-pointer`;
   return (
-    <div className="flex items-center w-[100%] mt-[30px]">
-      <img src={logo} alt="logo" className="w-20 h-20 ml-[15rem]" />
-      <div className="flex text-[21px] gap-[28px]">
-        <div>_about()</div>
-        <div>_resume()</div>
-        <div>_projects()</div>
-        <div>_contact()</div>
+    <nav>
+      <div className="flex justify-between items-center mt-6">
+        <img
+          src={logo}
+          alt="Logo"
+          className="w-[90px] ml-[12%] sm:ml-[2.5rem] md:ml-[3rem]"
+        />
+        <ul className="flex gap-[1rem] mr-[15%] sm:hidden md:hidden">
+          <li
+            className={navItemColorChange}
+            onClick={() => console.log('clicked')}>
+            _about()
+          </li>
+          <li
+            className={navItemColorChange}
+            onClick={() => console.log('clicked')}>
+            _resume()
+          </li>
+          <li
+            className={navItemColorChange}
+            onClick={() => console.log('clicked')}>
+            _projects()
+          </li>
+          <li
+            className={navItemColorChange}
+            onClick={() => console.log('clicked')}>
+            _contact()
+          </li>
+        </ul>
       </div>
-    </div>
+    </nav>
   );
 }
 
