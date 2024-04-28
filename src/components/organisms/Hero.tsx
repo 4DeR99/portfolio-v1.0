@@ -9,7 +9,7 @@ function Hero() {
           <div className="w-8 border-t border-quaternary bottom-[-12px]" />
           <span className="ml-2 text-quaternary">Hi</span>
         </div>
-        <h1 className="text-4xl my-4">
+        <h1 className="text-4xl my-4 font-extrabold">
           I'm <span className="text-primary">4DeR</span>
         </h1>
         <div className="text-secondaryText text-lg">
