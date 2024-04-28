@@ -1,6 +1,6 @@
 import React from 'react';
-import NavBar from '../NavBar';
-import Socials from '../Socials';
+import NavBar from '../organisms/NavBar';
+import Socials from '../organisms/Socials';
 
 interface LayoutProps {
   children: React.ReactNode;
