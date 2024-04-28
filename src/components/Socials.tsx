@@ -5,9 +5,8 @@ import {
   faLinkedin,
   faTwitter,
 } from '@fortawesome/free-brands-svg-icons';
-import { colors } from '../assets/colors';
 
-function FloatingContact() {
+function Socials() {
   const socials = [
     {
       label: 'Twitter',
@@ -26,7 +25,7 @@ function FloatingContact() {
     },
   ];
   return (
-    <div className="flex flex-col justify-start fixed right-0 bottom-[35vh]">
+    <div className="flex flex-col justify-start fixed right-0 bottom-[30vh]">
       <div className="flex flex-col gap-6">
         {socials.map(social => (
           <a
@@ -45,4 +44,4 @@ function FloatingContact() {
   );
 }
 
-export default FloatingContact;
+export default Socials;
