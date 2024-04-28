@@ -1,0 +1,30 @@
+.mouse-scroll {
+  width: 1.5em;
+  height: 4em;
+  border: solid 2px #fff;
+  border-radius: 30px;
+  position: relative;
+}
+
+.mouse-scroll::before {
+  content: '';
+  width: 0.8em;
+  height: 0.8em;
+  background: #99aab5;
+  border-radius: 50%;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  animation: scroll 2s infinite;
+}
+
+@keyframes scroll {
+  0% {
+    opacity: 1;
+    bottom: 65%;
+  }
+  100% {
+    opacity: 0;
+    bottom: 10%;
+  }
+}
