@@ -1,13 +1,12 @@
 import React from 'react';
-import NavBar from '../components/NavBar';
-import FloatingContact from '../components/FloatingContact';
+import Layout from '../components/layout/main';
 
 function Home() {
   return (
-    <div>
-      <NavBar />
-      <FloatingContact />
-    </div>
+    <Layout>
+      {/* <NavBar />
+      <Socials /> */}
+    </Layout>
   );
 }
 
