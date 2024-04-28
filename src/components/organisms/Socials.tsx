@@ -25,7 +25,7 @@ function Socials() {
     },
   ];
   return (
-    <div className="flex flex-col justify-start fixed right-0 bottom-[30vh]">
+    <div className="justify-start fixed right-0 bottom-[30vh] hidden lg:flex lg:flex-col">
       <div className="flex flex-col gap-6">
         {socials.map(social => (
           <a

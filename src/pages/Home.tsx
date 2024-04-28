@@ -1,11 +1,11 @@
 import React from 'react';
-import Layout from '../components/layout/main';
+import Layout from 'components/layout/main';
+import Hero from 'components/organisms/Hero';
 
 function Home() {
   return (
     <Layout>
-      {/* <NavBar />
-      <Socials /> */}
+      <Hero />
     </Layout>
   );
 }
