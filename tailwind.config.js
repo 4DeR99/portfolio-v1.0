@@ -2,6 +2,15 @@
 module.exports = {
   content: ['./src/**/*.{js,jsx,ts,tsx}'],
   theme: {
+    colors: {
+      background: '#1A1A24',
+      offBackground: '#08080B',
+      primary: '#588FCA',
+      secondary: '#1C647D',
+      tertiary: '#4B3B6D',
+      text: '#FFFFFF',
+      offText: '#A3A3A7',
+    },
     screens: {
       sm: { min: '640px', max: '767px' },
       // => @media (min-width: 640px and max-width: 767px) { ... }
