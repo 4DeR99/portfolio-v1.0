@@ -3,7 +3,7 @@ import logo from '../assets/icons/logo.png';
 import { colors } from '../assets/colors';
 
 function NavBar() {
-  const navItemColorChange = `hover:text-[${colors.primary}] hover:cursor-pointer`;
+  const navItemColorChange = `hover:text-primary hover:cursor-pointer`;
   return (
     <nav>
       <div className="flex justify-between items-center mt-6">
