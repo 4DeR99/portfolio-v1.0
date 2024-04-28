@@ -5,7 +5,7 @@ function NavBar() {
   const navItemColorChange = `hover:text-primary hover:cursor-pointer`;
   return (
     <nav className="w-full fixed top-0 bg-primaryBackground">
-      <div className="flex justify-between items-center mt-6">
+      <div className="flex justify-between items-center my-2">
         <img
           src={logo}
           alt="Logo"

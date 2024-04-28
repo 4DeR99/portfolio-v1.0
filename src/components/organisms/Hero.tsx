@@ -5,8 +5,8 @@ function Hero() {
   return (
     <div className="flex flex-col h-screen">
       <div className="flex flex-col w-11/12 mx-auto my-auto lg:w-3/6 lg:m-auto">
-        <div className="z-20 flex flex-row text-primary">
-          <div className="w-8 border-t border-quaternary bottom-[-12px] relative" />
+        <div className="flex flex-row items-center text-primary">
+          <div className="w-8 border-t border-quaternary bottom-[-12px]" />
           <span className="ml-2 text-quaternary">Hi</span>
         </div>
         <h1 className="text-4xl my-4">
@@ -22,7 +22,7 @@ function Hero() {
           programing.
         </div>
       </div>
-      <ScrollIndicator className="self-center mb-8" />
+      <ScrollIndicator className="self-center mb-[6rem] lg:mb-8" />
     </div>
   );
 }
