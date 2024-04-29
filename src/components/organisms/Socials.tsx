@@ -38,8 +38,8 @@ function Socials() {
           </a>
         ))}
       </div>
-      <div className="h-[80px] w-0 border-white border-[1px] ml-[27px] mt-[25px]" />
-      <div className="w-[80px] h-0 border-white border-[1px] ml-[27px]" />
+      <div className="h-[80px] w-0 border-white border-[1px] ml-[30px] mt-[25px]" />
+      <div className="w-[45px] h-0 border-white border-[1px] ml-[30px]" />
     </div>
   );
 }
