@@ -1,70 +1,81 @@
+import html from './icons/html.svg';
+import css from './icons/css.svg';
+import react from './icons/react.svg';
+import tailwind from './icons/tailwind.svg';
+import next from './icons/nextjs.svg';
+import node from './icons/nodejs.svg';
+import nest from './icons/nestjs.svg';
+import postgresql from './icons/postgresql.svg';
+import flutter from './icons/flutter.svg';
+import reactNative from './icons/react-native.svg';
+import c from './icons/c.svg';
+import cpp from './icons/c++.svg';
+import javascript from './icons/js.svg';
+import dart from './icons/dart.svg';
+
 export const skills = {
-  frontend: {
-    html: {
+  frontend: [
+    {
       name: 'HTML',
-      icon: 'assets/icons/html.svg',
+      icon: html,
     },
-    css: {
+    {
       name: 'CSS',
-      icon: 'assets/icons/css.svg',
+      icon: css,
     },
-    react: {
+    {
       name: 'React',
-      icon: 'assets/icons/react.svg',
+      icon: react,
     },
-    tailwind: {
+    {
       name: 'Tailwind',
-      icon: 'assets/icons/tailwind.svg',
+      icon: tailwind,
     },
-    next: {
+    {
       name: 'Next.js',
-      icon: 'assets/icons/next.svg',
+      icon: next,
     },
-  },
-  backend: {
-    node: {
+  ],
+  backend: [
+    {
       name: 'Node.js',
-      icon: 'assets/icons/node.svg',
+      icon: node,
     },
-    nest: {
+    {
       name: 'Nest.js',
-      icon: 'assets/icons/nest.svg',
+      icon: nest,
     },
-    postgesql: {
+    {
       name: 'PostgreSQL',
-      icon: 'assets/icons/postgresql.svg',
+      icon: postgresql,
     },
-  },
-  mobile: {
-    flutter: {
+  ],
+  mobile: [
+    {
       name: 'Flutter',
-      icon: 'assets/icons/flutter.svg',
+      icon: flutter,
     },
-    reactNative: {
+    {
       name: 'React Native',
-      icon: 'assets/icons/react.svg',
+      icon: reactNative,
     },
-  },
-  languages: {
-    c: {
+  ],
+  languages: [
+    {
       name: 'C',
-      icon: 'assets/icons/c.svg',
+      icon: c,
     },
-    cpp: {
+    {
       name: 'C++',
-      icon: 'assets/icons/cpp.svg',
+      icon: cpp,
     },
-    javascript: {
+    {
       name: 'JavaScript',
-      icon: 'assets/icons/javascript.svg',
+      icon: javascript,
     },
-    typescript: {
-      name: 'TypeScript',
-      icon: 'assets/icons/typescript.svg',
-    },
-    dart: {
+    {
       name: 'Dart',
-      icon: 'assets/icons/dart.svg',
+      icon: dart,
     },
-  },
+  ],
 };
