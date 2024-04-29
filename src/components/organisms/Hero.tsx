@@ -18,7 +18,7 @@ function Hero() {
           I'm a <span className="text-primaryText">software engineer</span>{' '}
           specialized in <span className="text-primaryText">mobile</span> and{' '}
           <span className="text-primaryText">web development</span>. I'm a
-          pationate problem solver and a fast learner and I enjoy competetive
+          passionate problem solver and a fast learner and I enjoy competetive
           programing.
         </div>
       </div>
