@@ -13,7 +13,7 @@ function SkillsContainer({ skills }: SkillsContainerProps) {
       borderColor="border-tertiary"
       height="h-[136px]"
       padding="px-[30px]">
-      <ul className="flex gap-8 items-center">
+      <ul className="flex lg:gap-6 xl:gap-8 justify-evenly lg:justify-between items-center grow">
         {skills.map((skill, index) => (
           <SkillItem key={index} src={skill.icon} alt={skill.name} />
         ))}
