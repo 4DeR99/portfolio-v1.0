@@ -3,7 +3,7 @@ import React from 'react';
 
 function Resume() {
   return (
-    <div className="flex flex-col p-5 gap-16">
+    <div className="flex flex-col p-5 gap-16 items-center min-h-screen">
       <h1 className="text-4xl font-extrabold text-center">_resume()</h1>
       <Skills />
     </div>
