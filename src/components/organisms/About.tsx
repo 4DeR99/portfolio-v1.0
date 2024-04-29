@@ -1,4 +1,4 @@
-import { constants } from 'assets/consts';
+import { about } from 'assets/consts';
 import React from 'react';
 
 function About() {
@@ -9,7 +9,7 @@ function About() {
           _about(<span className="text-primary">"ME"</span>)
         </h1>
         <div className="flex flex-col gap-4">
-          {constants.about.split('-').map((paragraph, index) => (
+          {about.split('-').map((paragraph, index) => (
             <p key={index} className="">
               {paragraph}
             </p>
