@@ -6,10 +6,17 @@ interface ContainerProps {
   height?: string;
   width?: string;
   borderColor: string;
+  padding?: string;
 }
 
-function Container({ children, height, width, borderColor }: ContainerProps) {
-  const className = `bg-secondaryBackground flex p-5 gap-8 ${height} ${width} border-${borderColor} border-[2px]`;
+function Container({
+  children,
+  height,
+  width,
+  borderColor,
+  padding,
+}: ContainerProps) {
+  const className = `bg-secondaryBackground flex ${padding} ${height} ${width} ${borderColor} border-[2px]`;
 
   return <div className={className}>{children}</div>;
 }
