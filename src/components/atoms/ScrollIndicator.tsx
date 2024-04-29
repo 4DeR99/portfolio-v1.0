@@ -7,7 +7,7 @@ interface ScrollIndicatorProps {
 
 function ScrollIndicator({ className }: ScrollIndicatorProps) {
   const scrollRef = useRef<HTMLDivElement>(null);
-  const [hidden, setHidden] = React.useState(false);
+  const [hidden, setHidden] = React.useState<boolean>(false);
 
   useEffect(() => {
     const handleScroll = () => {
