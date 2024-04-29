@@ -13,6 +13,11 @@ import cpp from './icons/c++.svg';
 import javascript from './icons/js.svg';
 import dart from './icons/dart.svg';
 
+export interface Skill {
+  name: string;
+  icon: string;
+}
+
 export const skills = {
   frontend: [
     {
