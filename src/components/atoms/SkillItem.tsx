@@ -7,7 +7,7 @@ interface SkillItemProps {
 
 function SkillItem({ src, alt }: SkillItemProps) {
   return (
-    <div className="flex flex-col gap-1 items-center">
+    <div className="flex flex-col gap-1 items-center hover:cursor-pointer hover:shadow-md hover:transform hover:scale-125 hover:transition-transform hover:duration-300">
       <img
         src={src}
         alt={alt}
