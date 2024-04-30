@@ -3,6 +3,7 @@ import Layout from 'components/layout/main';
 import Hero from 'components/organisms/Hero';
 import About from 'components/organisms/About';
 import Resume from 'components/organisms/Resume';
+import Projects from 'components/organisms/Projects';
 
 function Home() {
   return (
@@ -10,6 +11,7 @@ function Home() {
       <Hero />
       <About />
       <Resume />
+      <Projects />
     </Layout>
   );
 }
