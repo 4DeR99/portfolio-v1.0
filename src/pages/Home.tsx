@@ -4,6 +4,7 @@ import Hero from 'components/organisms/Hero';
 import About from 'components/organisms/About';
 import Resume from 'components/organisms/Resume';
 import Projects from 'components/organisms/Projects';
+import Contact from 'components/organisms/Contact';
 
 function Home() {
   return (
@@ -12,6 +13,7 @@ function Home() {
       <About />
       <Resume />
       <Projects />
+      <Contact />
     </Layout>
   );
 }
