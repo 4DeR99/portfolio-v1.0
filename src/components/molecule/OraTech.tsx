@@ -18,12 +18,13 @@ function OraTech() {
         </div>
         <p className="text-base text-secondaryText">{oraTech.description}</p>
         <div className="flex gap-2">
-          <div className="flex flex-wrap justify-center gap-2">
+          <div className="flex flex-wrap justify-start gap-2">
             {oraTech.technologies.map((tech, index) => (
               <HoverButton
                 key={index}
                 buttonTitle={tech}
                 hoverBg="hover:bg-primary"
+                minWidth="min-w-[70px]"
               />
             ))}
           </div>
