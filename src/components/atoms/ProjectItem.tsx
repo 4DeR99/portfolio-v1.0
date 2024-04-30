@@ -12,7 +12,7 @@ interface ProjectItemProps {
 function ProjectItem({ project }: ProjectItemProps) {
   return (
     <Container
-      borderColor="border-primary"
+      borderColor="border-secondaryBackground hover:border-primary"
       width="lg:w-[47%] xl:w-[32%] w-[80%]"
       padding="p-6"
       height="min-h-[300px]"
@@ -43,7 +43,7 @@ function ProjectItem({ project }: ProjectItemProps) {
           <p className="text-base text-secondaryText">{project.description}</p>
         </div>
         <div className="flex">
-          <div className="flex flex-wrap justify-start gap-1">
+          <div className="flex flex-wrap justify-start gap-1 mt-2">
             {project.technologies.map((tech, index) => (
               <HoverButton
                 key={index}
