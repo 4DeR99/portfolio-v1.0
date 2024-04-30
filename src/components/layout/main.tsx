@@ -1,6 +1,7 @@
 import React from 'react';
 import NavBar from '../organisms/NavBar';
 import Socials from '../organisms/Socials';
+import Footer from 'components/organisms/Footer';
 
 interface LayoutProps {
   children: React.ReactNode;
@@ -14,6 +15,7 @@ function Layout({ children }: LayoutProps) {
       <main className="container flex flex-col m-auto">
         <div className="container flex flex-col w-full">{children}</div>
       </main>
+      <Footer />
     </div>
   );
 }
