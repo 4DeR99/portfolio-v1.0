@@ -1,3 +1,11 @@
+interface Project {
+  title: string;
+  description: string;
+  technologies: string[];
+  github?: string;
+  demo?: string;
+}
+
 export const about =
   'I was always passionate about computers and electronic devices since I was 7, always wondering how these things inside the screen move and how to make them yourself.-My coding journey began in 2017 in high school, where I learned some algorithms. After high school, I joined 1337 coding school in 2021, where I learned the basics of programming. I spent 2 years building awesome projects with C and C++ like Minishell, Webserv, Cub3D, and more. I got into web development last year when I built my first web project with NextJs and NestJs. I had lots of fun building it with my team. That was the last project in the common core before going out on an internship.-During my internship, I developed my skills in web development, learned a lot of new technologies, and got introduced to mobile development using Flutter. It was a great experience learning and working with the team, and I am looking forward to learning more and building more awesome projects.';
 
@@ -17,3 +25,41 @@ export const oraTech = {
     'jest',
   ],
 };
+
+export const projects: Project[] = [
+  {
+    title: 'PongYo',
+    description:
+      'PongYo is a web-site platform that allows you to play pong with your friends online, as well as chat with them.',
+    technologies: [
+      'NextJs',
+      'TailwindCSS',
+      'Socket.io',
+      'TypeScript',
+      'NestJs',
+      'PostgreSQL',
+    ],
+    github: 'https://github.com/4DeR99/PongYo',
+  },
+  {
+    title: 'Portfolio',
+    description:
+      'This is my portfolio where I showcase my projects and skills. I built it using React, TailwindCSS, and Typescript.',
+    technologies: ['React', 'TailwindCSS', 'TypeScript'],
+    github: 'https://github.com/4DeR99/portfolio-v1.0',
+  },
+  {
+    title: 'Meals App',
+    description:
+      'Meals App is a mobile application that helps you find the best meals around you, built with Flutter and Bloc pattern for state management.',
+    technologies: ['Flutter', 'Dart', 'Bloc'],
+    github: 'https://github.com/4DeR99/Meals_app',
+  },
+  {
+    title: 'Webserv',
+    description:
+      'Webserv is a custom web server built from scratch using C++ and C. It supports GET, POST, PUT, DELETE, and more HTTP methods. It was built as a team project during my time at 1337 coding school.',
+    technologies: ['C', 'C++', 'HTTP 1.1'],
+    github: 'https://github.com/4DeR99/webserv',
+  },
+];
