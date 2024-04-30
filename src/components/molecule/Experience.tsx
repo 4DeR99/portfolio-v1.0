@@ -1,5 +1,6 @@
 import React from 'react';
 import OraTech from './OraTech';
+import TimeLine from './TimeLine';
 
 function Experience() {
   return (
@@ -7,6 +8,7 @@ function Experience() {
       <h2 className="text-2xl font-medium lg:self-start">.workExperience()</h2>
       <div className="flex flex-col lg:flex-row lg:flex-wrap gap-2 w-full ">
         <OraTech />
+        <TimeLine />
       </div>
     </div>
   );
