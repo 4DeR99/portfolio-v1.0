@@ -4,7 +4,7 @@ export const about =
 export const oraTech = {
   position: 'software Developer Intern',
   place: 'Ora Technologies, Casablanca-Morocco',
-  date: 'October 2023 - March 2024',
+  date: 'Oct 2023 - Mar 2024',
   description:
     'Ora Technologies is a super App that makes buying and selling online easier and more accessible to all Moroccans. its mission is to empower people to build their own businesses and improve their lives.',
   technologies: [

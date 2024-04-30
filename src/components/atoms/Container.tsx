@@ -7,6 +7,7 @@ interface ContainerProps {
   width?: string;
   borderColor: string;
   padding?: string;
+  margin?: string;
 }
 
 function Container({
@@ -15,8 +16,9 @@ function Container({
   width,
   borderColor,
   padding,
+  margin,
 }: ContainerProps) {
-  const className = `bg-secondaryBackground flex ${padding} ${height} ${width} ${borderColor} border-[2px]`;
+  const className = `bg-secondaryBackground flex ${padding} ${margin} ${height} ${width} ${borderColor} border-[2px]`;
 
   return <div className={className}>{children}</div>;
 }

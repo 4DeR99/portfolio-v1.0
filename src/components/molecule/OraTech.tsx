@@ -8,7 +8,8 @@ function OraTech() {
     <Container
       borderColor="border-secondary"
       width="lg:w-[70%] w-full"
-      padding="p-4">
+      padding="p-4"
+      margin="my-4">
       <div className="flex flex-col gap-3 w-full">
         <h3 className="text-xl font-medium text-primary">{oraTech.position}</h3>
         <div className="flex justify-between">
