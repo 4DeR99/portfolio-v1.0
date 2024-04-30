@@ -63,3 +63,6 @@ export const projects: Project[] = [
     github: 'https://github.com/4DeR99/webserv',
   },
 ];
+
+export const contact =
+  'I am always on the lookout for new challenges and opportunities to learn and grow. If you have a project or idea that you think I could help with, I would love to hear from you. Please feel free to get in touch via the contact button below or through any of the social media links.';
