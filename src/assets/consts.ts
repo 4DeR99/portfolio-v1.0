@@ -1,4 +1,4 @@
-interface Project {
+export interface Project {
   title: string;
   description: string;
   technologies: string[];
@@ -58,7 +58,7 @@ export const projects: Project[] = [
   {
     title: 'Webserv',
     description:
-      'Webserv is a custom web server built from scratch using C++ and C. It supports GET, POST, PUT, DELETE, and more HTTP methods. It was built as a team project during my time at 1337 coding school.',
+      'Webserv is a custom web server built from scratch using C++ and C. It supports GET, POST, PUT, DELETE, and more HTTP methods.',
     technologies: ['C', 'C++', 'HTTP 1.1'],
     github: 'https://github.com/4DeR99/webserv',
   },
