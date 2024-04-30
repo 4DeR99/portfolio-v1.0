@@ -3,7 +3,7 @@ import ScrollIndicator from 'components/atoms/ScrollIndicator';
 
 function Hero() {
   return (
-    <div className="flex flex-col h-screen">
+    <div className="flex flex-col min-h-screen">
       <div className="flex flex-col w-11/12 mx-auto my-auto lg:w-3/6 lg:m-auto">
         <div className="flex flex-row items-center text-primary">
           <div className="w-8 border-t border-quaternary bottom-[-12px]" />
