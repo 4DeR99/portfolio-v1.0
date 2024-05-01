@@ -25,22 +25,39 @@ function Socials() {
     },
   ];
   return (
-    <div className="justify-start fixed right-0 bottom-[30vh] hidden lg:flex lg:flex-col">
-      <div className="flex flex-col gap-6">
-        {socials.map(social => (
-          <a
-            key={social.url}
-            href={social.url}
-            target="_blank"
-            className={`transition-colors hover:text-primary border-[2px] border-white flex justify-center items-center w-[55px] h-[55px]`}
-            rel="noreferrer">
-            {social.icon}
-          </a>
-        ))}
+    <>
+      <div className="justify-start fixed right-0 bottom-[30vh] hidden lg:flex lg:flex-col">
+        <div className="flex flex-col gap-6">
+          {socials.map(social => (
+            <a
+              key={social.url}
+              href={social.url}
+              target="_blank"
+              className={`transition-colors hover:text-primary border-[2px] border-white flex justify-center items-center w-[55px] h-[55px]`}
+              rel="noreferrer">
+              {social.icon}
+            </a>
+          ))}
+        </div>
+        <div className="h-[80px] w-0 border-white border-[1px] ml-[30px] mt-[25px]" />
+        <div className="w-[45px] h-0 border-white border-[1px] ml-[30px]" />
       </div>
-      <div className="h-[80px] w-0 border-white border-[1px] ml-[30px] mt-[25px]" />
-      <div className="w-[45px] h-0 border-white border-[1px] ml-[30px]" />
-    </div>
+      <div className="lg:hidden flex justify-between items-center fixed bottom-0 w-full h-12 bg-primaryBackground px-4 text-secondaryText">
+        <span className="text-sm">You can find my socials here:</span>
+        <div className="flex items-center gap-4 h-full object-contain">
+          {socials.map(social => (
+            <a
+              key={social.url}
+              href={social.url}
+              target="_blank"
+              className={`transition-colors hover:text-primary`}
+              rel="noreferrer">
+              {social.icon}
+            </a>
+          ))}
+        </div>
+      </div>
+    </>
   );
 }
 
