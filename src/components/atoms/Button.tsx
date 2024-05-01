@@ -1,8 +1,15 @@
 import React from 'react';
 
-function Button({ buttonText }: { buttonText: string }) {
+interface ButtonProps {
+  buttonText: string;
+  onClick?: () => void;
+}
+
+function Button({ buttonText, onClick }: ButtonProps) {
   return (
-    <button className="px-6 py-3 border-primary border-[2px] hover:bg-primary rounded-lg">
+    <button
+      onClick={onClick}
+      className="px-6 py-3 border-primary border-[2px] hover:bg-primary rounded-lg">
       {buttonText}
     </button>
   );

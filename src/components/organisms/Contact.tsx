@@ -12,7 +12,10 @@ function Contact() {
         <Title title="_Contact()" />
         <p className="text-center">{contact}</p>
         <div className="flex justify-center">
-          <Button buttonText="Contact Me" />
+          <Button
+            onClick={() => open('mailto:oulmadouxz1@gmail.com')}
+            buttonText="Contact Me"
+          />
         </div>
       </div>
     </div>
