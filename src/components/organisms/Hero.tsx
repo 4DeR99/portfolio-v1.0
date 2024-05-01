@@ -16,10 +16,10 @@ function Hero() {
           My name is{' '}
           <span className="text-primaryText">Mohammed Reda Oulmadou</span> and
           I'm a <span className="text-primaryText">software engineer</span>{' '}
-          specialized in <span className="text-primaryText">mobile</span> and{' '}
+          specializing in <span className="text-primaryText">mobile</span> and{' '}
           <span className="text-primaryText">web development</span>. I'm a
-          passionate problem solver and a fast learner and I enjoy competetive
-          programing.
+          passionate problem solver and a fast learner and I enjoy competitive
+          programming.
         </div>
       </div>
       <ScrollIndicator className="self-center mb-[6rem] lg:mb-8" />
