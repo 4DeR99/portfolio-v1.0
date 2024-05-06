@@ -54,6 +54,7 @@ export const projects: Project[] = [
       'This is my portfolio where I showcase my projects and skills. I built it using React, TailwindCSS, and Typescript.',
     technologies: ['React', 'TailwindCSS', 'TypeScript'],
     github: 'https://github.com/4DeR99/portfolio-v1.0',
+    demo: 'https://4der.vercel.app/',
   },
   {
     title: 'Meals App',
@@ -61,6 +62,13 @@ export const projects: Project[] = [
       'Meals App is a mobile application that helps you find the best meals around you, built with Flutter and Bloc pattern for state management.',
     technologies: ['Flutter', 'Dart', 'Bloc'],
     github: 'https://github.com/4DeR99/Meals_app',
+  },
+  {
+    title: 'Creon',
+    description: 'A landing page built with nextJs and TailwindCSS.',
+    technologies: ['NextJs', 'TailwindCSS', 'TypeScript'],
+    github: 'https://github.com/4DeR99/Creon',
+    demo: 'https://creon-liart.vercel.app/',
   },
   {
     title: 'Webserv',

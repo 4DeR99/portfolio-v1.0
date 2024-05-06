@@ -20,3 +20,22 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+html::-webkit-scrollbar {
+  width: 5px;
+}
+
+html::-webkit-scrollbar-thumb {
+  background-color: #588FCA;
+  border-radius: 0;
+}
+
+html::-webkit-scrollbar-track {
+  background-color: #08080B;
+}
+
+::selection {
+  background: #588FCA;
+  text-shadow: none;
+  color: #1A1A24;
+}

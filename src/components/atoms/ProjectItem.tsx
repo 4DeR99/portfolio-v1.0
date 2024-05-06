@@ -21,7 +21,7 @@ function ProjectItem({ project }: ProjectItemProps) {
         <div className="flex flex-col gap-2">
           <div className="flex justify-between">
             <h1 className="text-2xl font-medium">{project.title}</h1>
-            <div className="flex">
+            <div className="flex gap-2">
               {project.github && (
                 <img
                   src={github}
