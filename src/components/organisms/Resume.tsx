@@ -14,7 +14,11 @@ function Resume() {
         <Skills />
         <Experience />
       </div>
-      <Button buttonText="_resume.get()" />
+      <Button buttonText="">
+        <a href="/Mohammed_Reda_Oulmadou.pdf" target="_blank" rel="noreferrer">
+          _resume.get()
+        </a>
+      </Button>
     </div>
   );
 }
