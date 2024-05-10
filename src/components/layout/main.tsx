@@ -2,7 +2,7 @@ import React from 'react';
 import NavBar from '../organisms/NavBar';
 import Socials from '../organisms/Socials';
 import Footer from 'components/organisms/Footer';
-
+import { Analytics } from '@vercel/analytics/react';
 interface LayoutProps {
   children: React.ReactNode;
 }
@@ -16,6 +16,7 @@ function Layout({ children }: LayoutProps) {
         <div className="container flex flex-col w-full">{children}</div>
       </main>
       <Footer />
+      <Analytics />
     </div>
   );
 }
