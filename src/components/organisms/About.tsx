@@ -3,9 +3,9 @@ import React from 'react';
 
 function About() {
   return (
-    <div className="flex flex-col p-5 gap-8 min-h-screen" id="about">
-      <div className="flex flex-col items-center w-11/12 mx-auto my-auto lg:w-3/6 lg:m-auto gap-[4em]">
-        <h1 className="text-3xl lg:text-5xl font-extrabold">
+    <div className="flex min-h-screen flex-col gap-8 p-5" id="about">
+      <div className="mx-auto my-auto flex w-11/12 flex-col items-center gap-[4em] lg:m-auto lg:w-3/6">
+        <h1 className="text-3xl font-extrabold lg:text-5xl">
           _about(<span className="text-primary">"ME"</span>)
         </h1>
         <div className="flex flex-col gap-4">

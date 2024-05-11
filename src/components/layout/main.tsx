@@ -9,11 +9,11 @@ interface LayoutProps {
 
 function Layout({ children }: LayoutProps) {
   return (
-    <div className="flex flex-col items-center w-full h-full bg-primaryBackground text-primaryText">
+    <div className="flex h-full w-full flex-col items-center bg-primaryBackground text-primaryText">
       <NavBar />
       <Socials />
-      <main className="container flex flex-col m-auto">
-        <div className="container flex flex-col w-full">{children}</div>
+      <main className="container m-auto flex flex-col">
+        <div className="container flex w-full flex-col">{children}</div>
       </main>
       <Footer />
       <Analytics />

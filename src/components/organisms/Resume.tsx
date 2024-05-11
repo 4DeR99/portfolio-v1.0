@@ -7,7 +7,7 @@ import Title from 'components/atoms/Title';
 function Resume() {
   return (
     <div
-      className="flex flex-col p-5 gap-16 items-center min-h-screen"
+      className="flex min-h-screen flex-col items-center gap-16 p-5"
       id="resume">
       <Title title="_resume()" />
       <div className="flex flex-col gap-40">

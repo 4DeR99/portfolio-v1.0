@@ -6,9 +6,9 @@ import React from 'react';
 function Contact() {
   return (
     <div
-      className="flex flex-col p-5 gap-16 items-center justify-center min-h-[80vh]"
+      className="flex min-h-[80vh] flex-col items-center justify-center gap-16 p-5"
       id="contact">
-      <div className="flex flex-col w-11/12 mx-auto my-auto lg:w-3/6 lg:m-auto gap-8">
+      <div className="mx-auto my-auto flex w-11/12 flex-col gap-8 lg:m-auto lg:w-3/6">
         <Title title="_Contact()" />
         <p className="text-center">{contact}</p>
         <div className="flex justify-center">

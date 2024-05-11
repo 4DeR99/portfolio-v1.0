@@ -26,7 +26,7 @@ function ProjectItem({ project }: ProjectItemProps) {
                 <img
                   src={github}
                   alt={project.title}
-                  className="w-[20px] h-[20px] object-contain hover:cursor-pointer"
+                  className="h-[20px] w-[20px] object-contain hover:cursor-pointer"
                   onClick={() => window.open(project.github, '_blank')}
                 />
               )}
@@ -34,7 +34,7 @@ function ProjectItem({ project }: ProjectItemProps) {
                 <img
                   src={link}
                   alt={project.title}
-                  className="w-[20px] h-[20px] object-contain hover:cursor-pointer"
+                  className="h-[20px] w-[20px] object-contain hover:cursor-pointer"
                   onClick={() => window.open(project.demo, '_blank')}
                 />
               )}
@@ -43,7 +43,7 @@ function ProjectItem({ project }: ProjectItemProps) {
           <p className="text-base text-secondaryText">{project.description}</p>
         </div>
         <div className="flex">
-          <div className="flex flex-wrap justify-start gap-1 mt-2">
+          <div className="mt-2 flex flex-wrap justify-start gap-1">
             {project.technologies.map((tech, index) => (
               <HoverButton
                 key={index}

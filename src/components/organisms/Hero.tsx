@@ -3,16 +3,16 @@ import ScrollIndicator from 'components/atoms/ScrollIndicator';
 
 function Hero() {
   return (
-    <div className="flex flex-col min-h-screen">
-      <div className="flex flex-col w-11/12 mx-auto my-auto lg:w-3/6 lg:m-auto">
+    <div className="flex min-h-screen flex-col">
+      <div className="mx-auto my-auto flex w-11/12 flex-col lg:m-auto lg:w-3/6">
         <div className="flex flex-row items-center text-primary">
-          <div className="w-8 border-t border-quaternary bottom-[-12px]" />
+          <div className="bottom-[-12px] w-8 border-t border-quaternary" />
           <span className="ml-2 text-quaternary">Hi</span>
         </div>
-        <h1 className="text-4xl my-4 font-extrabold">
+        <h1 className="my-4 text-4xl font-extrabold">
           I'm <span className="text-primary">4DeR</span>
         </h1>
-        <div className="text-secondaryText text-lg">
+        <div className="text-lg text-secondaryText">
           My name is{' '}
           <span className="text-primaryText">Mohammed Reda Oulmadou</span> and
           I'm a <span className="text-primaryText">software engineer</span>{' '}
@@ -22,7 +22,7 @@ function Hero() {
           programming.
         </div>
       </div>
-      <ScrollIndicator className="self-center mb-[6rem] lg:mb-8" />
+      <ScrollIndicator className="mb-[6rem] self-center lg:mb-8" />
     </div>
   );
 }

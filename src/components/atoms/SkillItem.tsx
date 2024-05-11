@@ -7,11 +7,11 @@ interface SkillItemProps {
 
 function SkillItem({ src, alt }: SkillItemProps) {
   return (
-    <div className="flex flex-col gap-1 items-center hover:cursor-pointer hover:shadow-md hover:transform hover:scale-125 hover:transition-transform hover:duration-300">
+    <div className="flex flex-col items-center gap-1 hover:scale-125 hover:transform hover:cursor-pointer hover:shadow-md hover:transition-transform hover:duration-300">
       <img
         src={src}
         alt={alt}
-        className="xl:h-[70px] xl:w-[100px] md:h-[50px] md:w-[85px] h-[40px] w-[70px] object-contain"
+        className="h-[40px] w-[70px] object-contain md:h-[50px] md:w-[85px] xl:h-[70px] xl:w-[100px]"
       />
       <div className="hidden">{alt}</div>
     </div>

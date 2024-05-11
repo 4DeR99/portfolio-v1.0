@@ -10,41 +10,41 @@ function Socials() {
   const socials = [
     {
       label: 'Twitter',
-      icon: <FontAwesomeIcon icon={faTwitter} className="w-[30px] h-[30px]" />,
+      icon: <FontAwesomeIcon icon={faTwitter} className="h-[30px] w-[30px]" />,
       url: 'https://twitter.com/4der',
     },
     {
       label: 'Github',
-      icon: <FontAwesomeIcon icon={faGithub} className="w-[30px] h-[30px]" />,
+      icon: <FontAwesomeIcon icon={faGithub} className="h-[30px] w-[30px]" />,
       url: 'https://github.com/4der99',
     },
     {
       label: 'Linkedin',
-      icon: <FontAwesomeIcon icon={faLinkedin} className="w-[30px] h-[30px]" />,
+      icon: <FontAwesomeIcon icon={faLinkedin} className="h-[30px] w-[30px]" />,
       url: 'https://www.linkedin.com/in/4der/',
     },
   ];
   return (
     <>
-      <div className="justify-start fixed right-0 bottom-[30vh] hidden lg:flex lg:flex-col">
+      <div className="fixed bottom-[30vh] right-0 hidden justify-start lg:flex lg:flex-col">
         <div className="flex flex-col gap-6">
           {socials.map(social => (
             <a
               key={social.url}
               href={social.url}
               target="_blank"
-              className={`transition-colors hover:text-primary border-[2px] border-white flex justify-center items-center w-[55px] h-[55px]`}
+              className={`border-white flex h-[55px] w-[55px] items-center justify-center border-[2px] transition-colors hover:text-primary`}
               rel="noreferrer">
               {social.icon}
             </a>
           ))}
         </div>
-        <div className="h-[80px] w-0 border-white border-[1px] ml-[30px] mt-[25px]" />
-        <div className="w-[45px] h-0 border-white border-[1px] ml-[30px]" />
+        <div className="border-white ml-[30px] mt-[25px] h-[80px] w-0 border-[1px]" />
+        <div className="border-white ml-[30px] h-0 w-[45px] border-[1px]" />
       </div>
-      <div className="lg:hidden flex justify-between items-center fixed bottom-0 w-full h-12 bg-primaryBackground px-4 text-secondaryText">
+      <div className="fixed bottom-0 flex h-12 w-full items-center justify-between bg-primaryBackground px-4 text-secondaryText lg:hidden">
         <span className="text-sm">You can find my socials here:</span>
-        <div className="flex items-center gap-4 h-full object-contain">
+        <div className="flex h-full items-center gap-4 object-contain">
           {socials.map(social => (
             <a
               key={social.url}

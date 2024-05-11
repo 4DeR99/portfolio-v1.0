@@ -10,7 +10,7 @@ function OraTech() {
       width="lg:w-[70%] w-full"
       padding="p-4"
       margin="my-4">
-      <div className="flex flex-col gap-3 w-full">
+      <div className="flex w-full flex-col gap-3">
         <h3 className="text-xl font-medium text-primary">{oraTech.position}</h3>
         <div className="flex justify-between">
           <p className="text-base">{oraTech.place}</p>
