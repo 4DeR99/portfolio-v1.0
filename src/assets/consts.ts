@@ -63,13 +63,13 @@ export const projects: Project[] = [
     technologies: ['Flutter', 'Dart', 'Bloc'],
     github: 'https://github.com/4DeR99/Meals_app',
   },
-  {
-    title: 'Creon',
-    description: 'A landing page built with nextJs and TailwindCSS.',
-    technologies: ['NextJs', 'TailwindCSS', 'TypeScript'],
-    github: 'https://github.com/4DeR99/Creon',
-    demo: 'https://creon-liart.vercel.app/',
-  },
+  // {
+  //   title: 'Creon',
+  //   description: 'A landing page built with nextJs and TailwindCSS.',
+  //   technologies: ['NextJs', 'TailwindCSS', 'TypeScript'],
+  //   github: 'https://github.com/4DeR99/Creon',
+  //   demo: 'https://creon-liart.vercel.app/',
+  // },
   {
     title: 'Webserv',
     description:
